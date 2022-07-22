@@ -1,0 +1,88 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\MERN-May> node
+Welcome to Node.js v16.15.0.
+Type ".help" for more information.
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+>
+PS D:\MERN-May> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (mern-may)
+version: (1.0.0)                                                                                               
+description:                                                                                                   
+entry point: (index.js)                                                                                        
+test command:                                                                                                  
+git repository:                                                                                                
+keywords:                                                                                                      
+author:                                                                                                        
+license: (ISC)                                                                                                 
+About to write to D:\MERN-May\package.json:
+
+{
+  "name": "mern-may",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS D:\MERN-May> node buffer.js
+Octets written:4
+(node:6672) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PS D:\MERN-May> node buffer.js
+Octets written:4
+{
+  type: 'Buffer',
+  data: [
+    77, 69, 82, 78, 0,
+     0,  0,  0,  0, 0
+  ]
+}
+(node:20012) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PS D:\MERN-May> node buffer.js
+Octets written:4
+{
+  type: 'Buffer',
+  data: [
+    77, 69, 82, 78, 0,
+     0,  0,  0,  0, 0
+  ]
+}
+MERN
+(node:19636) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PS D:\MERN-May> node buffer.js
+Octets written:4
+{ type: 'Buffer', data: [ 10, 20, 30, 40, 50 ] }
+MERN
+(node:21928) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PS D:\MERN-May> node buffer.js
+Octets written:4
+{ type: 'Buffer', data: [ 10, 20, 30, 40, 50 ] }
+
+¶▲(2
+(node:19116) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PS D:\MERN-May>
