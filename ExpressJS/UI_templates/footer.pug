@@ -1,0 +1,8 @@
+div footer
+    if(!uname)
+        form(action="/users/62dfebbf3f542eae3add308d", method="post") 
+            input(type="text", name="uname")
+            input(type="email", name="email")
+            button(type="submit") SUBMIT
+    else 
+        p #{uname} 

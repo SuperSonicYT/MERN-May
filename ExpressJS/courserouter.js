@@ -4,6 +4,9 @@ var courserouter = express.Router();
 courserouter.get('/', function(req,res) {
     res.send('Courses');
 });
+courserouter.get('/coursedetails', function(req,res) {
+    res.send('Course Details');
+});
 courserouter.get('/coursedetails/:id([0-9]{2})', function(req,res) {
     res.send("The id specified is " + req.params.id);
 });

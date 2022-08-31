@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title First Pug Template
+        style 
+            include external.css 
+    body
+        img(src="/public/logo.gif")
+        include header.pug
+        p(style="border: 2px solid black",width="100px",height="400px") P testing
+        p.greetings Hello World!!! my name is #{name}
+        p#greetingV1 .
+        p
+            | You are learning #{course} 
+            |dsfsdfsdffsfdsd 
+            |sdfsdfdsfsdf
+        p.
+            fresvsdsfdsf v 
+            dsfsdfsdf dsf fds 
+            sdfsdfsdf
+        //pkinono
+        include page.pug
+
+        if(courses)
+            p You are learning #{course} 
+        else 
+            p You are not enrolled
+        include footer.pug
