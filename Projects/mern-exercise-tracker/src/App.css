@@ -1,0 +1,3 @@
+.navbar-expand-md .navbar-collapse {
+  flex-flow: row-reverse;
+}
